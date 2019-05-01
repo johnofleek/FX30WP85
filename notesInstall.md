@@ -1,3 +1,6 @@
+# Building yocto image for FX30WP85
+
+
 Try with 60Gb drive space
 ## -- might need this
 ```
@@ -15,13 +18,18 @@ $ sudo ln -s y17-ext-fx30 y17-ext
 ```
 
 ## -- extract the base system yocto 
+
+Get then from source.sierrawireless.com
 ```
 tar -xvf FX30_WP8548_full_R14.0.4.002.tar.gz
+```
+In the root of the above project
 
+```
 tar -xvf legato-16.10.1.m3.tar.bz2
 ```
 
-## install  these puppyies
+## install  these puppies
 
 makeinfo
 gawk
