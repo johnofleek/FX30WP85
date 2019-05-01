@@ -168,7 +168,7 @@ fwupdate query 192.168.2.2
 ```
 
 
-## have a go at using bitbake to fins what is available
+## have a go at using bitbake to find what is available
 
 . ./poky/oe-init-build-env
 ```
