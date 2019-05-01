@@ -1,5 +1,5 @@
 
-https://forum.legato.io/t/python-receipts-in-legato/2356 suggessets adding IMAGE_INSTALL statements to mdm9x15-image.inc  
+https://forum.legato.io/t/python-receipts-in-legato/2356 suggests adding IMAGE_INSTALL statements to mdm9x15-image.inc  
 
 In the FX30 yocto image I found this:  
 
@@ -108,7 +108,7 @@ IMAGE_INSTALL += "python-misc"
 
 
 Yocto - from "workspace"
-
+```
 make 
 ```
 
@@ -118,9 +118,6 @@ Try a
 ```
 cd /home/john/FX30/workspace/legato/
 source ./bin/configlegatoenv
-
-
-
 
 instlegato wp85 192.168.2.2
 ````
@@ -171,12 +168,13 @@ fwupdate query 192.168.2.2
 ```
 
 
-## have a go at using bitbake
-. ./poky/oe-init-build-env
+## have a go at using bitbake to fins what is available
 
+. ./poky/oe-init-build-env
+```
 bitbake -e python | grep ^PACKAGES=
 PACKAGES="python-ptest libpython2 python-dbg python-2to3 python-audio python-bsddb python-codecs python-compile python-compiler python-compression python-core python-crypt python-ctypes python-curses python-datetime python-db python-debugger python-dev python-difflib python-distutils-staticdev python-distutils python-doctest python-elementtree python-email python-fcntl python-gdbm python-hotshot python-html python-idle python-image python-importlib python-io python-json python-lang python-logging python-mailbox python-math python-mime python-mmap python-multiprocessing python-netclient python-netserver python-numbers python-pickle python-pkgutil python-pprint python-profile python-pydoc python-re python-readline python-resource python-robotparser python-shell python-smtpd python-sqlite3 python-sqlite3-tests python-stringold python-subprocess python-syslog python-terminal python-tests python-textutils python-threading python-tkinter python-unittest python-unixadmin python-xml python-xmlrpc python-zlib python-modules python-misc python-man"
-
+```
 
 
 
