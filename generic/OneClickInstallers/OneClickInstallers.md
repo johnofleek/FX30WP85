@@ -1,5 +1,6 @@
 # Had a problem with a WP77xx 1 click installer
-The device had a broken image loaded but would go into boot mode and in windows had a visible "DM" serial port  
+The device had a broken image loaded but would go into boot mode  
+In windows had a visible "DM" serial port  
 
 
 The installer failed like this
