@@ -49,5 +49,5 @@ Total time elapsed: 1250 ms.
 Press Enter to continue ...
 ```
 
-## Woraround
+## Workaround
 Use AT command to manually force the module into boot mode
