@@ -29,8 +29,8 @@ Final images information:
 ## Workaround
 1. Uncompress the 1 click .exe (with izarc)
 1. Run up a windows power shell
-1. Execute the installer with the new image
-1.1 ./fdt2.exe WP77xx_Release9.1_PTCRB_GCF_SPK.spk
+1. Execute the installer (fdt2.exe) with the new image (WP77xx_Release9.1_PTCRB_GCF_SPK.spk)
+1.1 For example execute ./fdt2.exe WP77xx_Release9.1_PTCRB_GCF_SPK.spk
 
 
 # Had a problem with EM7xxx 1 click installer
