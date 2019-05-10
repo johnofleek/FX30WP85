@@ -31,8 +31,63 @@ Final images information:
 1. Run up a windows power shell
 1. Execute the installer (fdt2.exe) with the new image (WP77xx_Release9.1_PTCRB_GCF_SPK.spk)  
 
-For example execute  
+For example execute   in power shell
 ./fdt2.exe WP77xx_Release9.1_PTCRB_GCF_SPK.spk  
+
+or
+
+```
+PS C:\Users\john\OneDrive\Documents\WP77xx\WP77xx_Release9.1_PTCRB_GCF_MOD> .\fdt2.exe yocto_wp77xx.4k.cwe
+FDT version: 1.0.1806.0
+Awaiting suitable port or adapter ...
+Switching to boot & hold mode ...
+Disabling selective suspend ...
+Awaiting download port ...
+Switching to streaming mode ...
+Downloading images ...
+Writing image -
+Flashing image /
+Awaiting adapter ...
+Checking update status ...
+Enabling selective suspend ...
+Firmware image download succeeded.
+Final Firmware update succeeded.
+
+Preexisting images information:
+        Current:
+                Firmware:
+                        ImageId: 001.028_001
+                        BuildId: 02.16.06.00_GENERIC
+                Configuration:
+                        ImageId: 001.028_001
+                        BuildId: 02.16.06.00_GENERIC
+Final images information:
+        Current:
+                Firmware:
+                        ImageId: 001.028_001
+                        BuildId: 02.16.06.00_GENERIC
+                Configuration:
+                        ImageId: 001.028_001
+                        BuildId: 02.16.06.00_GENERIC
+
+OEM PRI: 9907365 001.004
+
+IMEI: 352653090128562
+
+Total time elapsed: 86157 ms.
+
+Time to switch to boot mode: 20594 ms.
+
+Images downloaded:
+        Image ID:
+        Build ID:
+                write time: 14547 ms
+                additional flash time: 5110 ms
+
+Time to reset to application mode: 45438 ms.
+```
+
+
 
 
 # Had a problem with EM7xxx 1 click installer
