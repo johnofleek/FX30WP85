@@ -1,14 +1,21 @@
-#(after following instructions below)
+# (after following instructions below)
 
-## Environment setup 
+## Environment setup for command line Linux build
 So command line builds work such as $CC is set
 
 ```
 $ . /opt/swi/SWI9X06Y_02.18.05.00/environment-setup-armv7a-neon-poky-linux-gnueabi
 $ echo $CC
 arm-poky-linux-gnueabi-gcc -march=armv7-a -mfpu=neon -mfloat-abi=softfp --sysroot=/opt/swi/SWI9X06Y_02.18.05.00/sysroots/armv7a-neon-poky-linux-gnueabi
+```
+
+## Environment setup for Legato build
+This relies on the Legato\bin existing
 
 ```
+source ./bin/configlegatoenv
+```
+
 
 # Install the toolchain
 
