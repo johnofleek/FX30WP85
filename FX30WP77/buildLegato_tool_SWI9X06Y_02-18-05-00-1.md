@@ -1,4 +1,8 @@
-# (after following instructions below)
+# This doc purpose
+For command line cross building of Linux apps targeting WP77xx
+For command line cross building of legato apps using the legato tools
+
+# What you can do after the tool installs
 
 ## Environment setup for command line Linux build
 So command line builds work such as $CC is set
@@ -17,11 +21,13 @@ source ./bin/configlegatoenv
 ```
 
 
-# Install the toolchain
+# Install the Legato cross build toolchain
 
 Download the toolchain from the source->  product -> Firmware page
 
-Then follow the instructions in legato.io - roughly like this
+Then follow the instructions in legato.io - roughly like this 
+* make sure to carefully follow the instructions
+* watch out it's likely that the toolchain you have is a different name to the legato.io documentation
 
 ```
 . /opt/swi/SWI9X06Y_02.18.05.00/environment-setup-armv7a-neon-poky-linux-gnueabi
@@ -39,7 +45,7 @@ $ sudo chown -R root .
 ```
 
 
-## legato
+## Build legato system
 Download the Tarball and extract it to a directory on your local machine
 ```
 $ mv ~/Downloads/legato-17.11.0.tar.bz2 legatoAF/
