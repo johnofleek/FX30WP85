@@ -55,7 +55,7 @@ $ mv ~/Downloads/legato-17.11.0.tar.bz2 legatoAF/
 $ cd legatoAF/
 $ tar -xvf legato-17.11.0.tar.bz2
 ```
-The bit they forgot is that make is required to make the bin directory appear !!!  
+The bit the documentation forgets to mention is that 'make' is required to make the bin directory appear !!!  
 tried 
 
 **Build the tools**  
