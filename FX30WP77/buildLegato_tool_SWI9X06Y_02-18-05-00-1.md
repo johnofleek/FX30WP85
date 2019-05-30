@@ -1,6 +1,6 @@
 # This doc purpose
-For command line cross building of Linux apps targeting WP77xx
-For command line cross building of legato apps using the legato tools
+1. For command line cross building of Linux apps targeting WP77xx
+1. For command line cross building of legato apps using the legato tools
 
 # What you can do after the tool installs
 
