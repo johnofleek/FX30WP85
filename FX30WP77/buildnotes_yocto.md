@@ -81,7 +81,11 @@ Removed the wifi and other stuff - I guess we need i2cgpioctl though
 # end JT
 ```
 
+See local .inc file for finished working 
 
+```
+/home/john/FX30/workspace/meta-swi/meta-swi-mdm9x28/recipes-core/images/mdm9x28-image.inc
+```
 
 
 
