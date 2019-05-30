@@ -1,5 +1,5 @@
 # Building yocto image for FX30WP85
-
+Current date 2019-05
 
 Try with 60Gb drive space
 ## -- might need this
