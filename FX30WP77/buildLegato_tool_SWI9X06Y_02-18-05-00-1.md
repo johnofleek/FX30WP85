@@ -14,14 +14,17 @@ arm-poky-linux-gnueabi-gcc -march=armv7-a -mfpu=neon -mfloat-abi=softfp --sysroo
 ```
 
 ## Environment setup for Legato build
-This relies on the Legato\bin existing
+This relies on the legato/bin folder existing - when you download the legato image it is in source form you have to build it and it relies on the cross build toolchain to build - if /bin is missing see below 
 
 ```
 source ./bin/configlegatoenv
 ```
 
+# Installing the stuff to build legato
+1. install the cross build toolchain in /opt/swi
+2. build the target legato system - this gives the legato specific build tools + the libs etc 
 
-# Install the Legato cross build toolchain
+## STEP 1 - Install the Legato cross build toolchain
 
 Download the toolchain from the source->  product -> Firmware page
 
@@ -45,7 +48,7 @@ $ sudo chown -R root .
 ```
 
 
-## Build legato system
+## STEP2 - Build the legato system and image
 Download the Tarball and extract it to a directory on your local machine
 ```
 $ mv ~/Downloads/legato-17.11.0.tar.bz2 legatoAF/
@@ -55,6 +58,7 @@ $ tar -xvf legato-17.11.0.tar.bz2
 The bit they forgot is that make is required to make the bin directory appear ***
 tried 
 
+**Build the tools**
 ```
 make wp85
 ```
@@ -64,13 +68,16 @@ then
 ```
 make wp77xx
 ```
+this worked   !!!
 
-this worked   
+**set the environment to pick up the correct cross tools etc**
+
 then
 ```
 source ./bin/configlegatoenv
 ```
-
+**cross build the legato image**
+** 
 Then
 ```
 mksys -t wp77xx default.sdef
