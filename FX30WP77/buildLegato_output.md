@@ -1,4 +1,4 @@
-## Legato Build output files 
+## Legato mksys build output files 
 
 There are two core build outputs - .update files and .cwe files  
 1. .update go into the overlay and can be rolled back etc
