@@ -55,10 +55,10 @@ $ mv ~/Downloads/legato-17.11.0.tar.bz2 legatoAF/
 $ cd legatoAF/
 $ tar -xvf legato-17.11.0.tar.bz2
 ```
-The bit they forgot is that make is required to make the bin directory appear ***
+The bit they forgot is that make is required to make the bin directory appear !!!  
 tried 
 
-**Build the tools**
+**Build the tools**  
 ```
 make wp85
 ```
@@ -70,14 +70,14 @@ make wp77xx
 ```
 this worked   !!!
 
-**set the environment to pick up the correct cross tools etc**
+**Set the environment to pick up the correct cross tools etc** 
 
 then
 ```
 source ./bin/configlegatoenv
 ```
-**cross build the legato image**
-** 
+**Cross build the legato image**  
+   
 Then
 ```
 mksys -t wp77xx default.sdef
