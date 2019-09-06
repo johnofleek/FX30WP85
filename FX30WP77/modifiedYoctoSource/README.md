@@ -1,4 +1,4 @@
-# File locatio - my install
+# File location - my install
 ```
 To add python 
 mdm9x28-sierra-image.inc
