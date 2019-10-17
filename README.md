@@ -9,7 +9,11 @@ toc_icon: "cog"
 # legato_info
 A place to document stuff specific to the use of Legato and it's target systems
 
+[FX30 WP77xx](FX30WP77)  
+[FX30 WP8548](FX30WP85)
+
+
 # Images location
 
-https://www.dropbox.com/home/LegatoYoctoBinaryImages
+[binary](https://www.dropbox.com/home/LegatoYoctoBinaryImages)
 
