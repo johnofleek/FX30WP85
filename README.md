@@ -5,9 +5,11 @@ toc_icon: "cog"
 toc_label: "My Table of Contents"
 ---
 
-toc: true
-toc_label: "My Table of Contents"
-toc_icon: "cog"
+<ul>
+    {% for item in site.data.samplelist[page.sidebar] %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}
+</ul>
 
 # legato_info
 A place to document stuff specific to the use of Legato and it's target systems
