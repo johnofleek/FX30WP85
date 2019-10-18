@@ -1,6 +1,6 @@
 ---
 permalink: /
-sidebar:toc
+sidebar: toc
 ---
 
 toc: true
