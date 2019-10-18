@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /FX30WP77/
 sidebar: toc
 toc_icon: "cog"
 toc_label: "My Table of Contents"
