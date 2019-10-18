@@ -1,3 +1,11 @@
+---
+permalink: /
+sidebar: toc
+toc_icon: "cog"
+toc_label: "My Table of Contents"
+---
+
+
 ## Changes to standard
 The current version has  
 * Socat
