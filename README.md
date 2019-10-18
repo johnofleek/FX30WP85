@@ -1,10 +1,11 @@
 ---
 permalink: /
+sidebar:toc
+---
+
 toc: true
 toc_label: "My Table of Contents"
 toc_icon: "cog"
----
-
 
 # legato_info
 A place to document stuff specific to the use of Legato and it's target systems
